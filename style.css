@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  width: 70%;
+  height: 80vh;
+}
+
+/* Left Column */
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.top-box,
+.bottom-box {
+  flex: 1;
+  border-radius: 20px;
+  background-color: #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Column */
+.right {
+  flex: 1;
+  border-radius: 20px;
+  background-color: #ccc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/*Content starts here*/
+.top-box h1 {
+  display: inline-flex;
+  margin: 6% 40px;
+  padding: 5px;
+}
+
+.top-box input {
+  display: block;
+  border-radius: 40px;
+  width: 90%;
+  border: none;
+  padding: 20px;
+  margin: 10px 0;
+  margin-left: 20px;
+  font-size: 1rem;
+}
+
+.top-box .text {
+  display: flex;
+  padding: 10px;
+  font-size: 0.9rem
+}
+
+.top-box i {
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  width: 20%;
+  height: 50%;
+  padding: 35px 35px;
+}
+
