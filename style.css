@@ -1,3 +1,5 @@
+/*Background-image URL path: https://unsplash.com/photos/a-white-wave-in-the-ocean-mb2dnoWSZWM*/
+
 /*Font Family*/
 @font-face {
   font-family: "semi-bold";
@@ -20,11 +22,11 @@ html,
 body {
   height: 100%;
   width: 100%;
-  
 }
 
 body {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-image: url(https://images.unsplash.com/photo-1670129277726-3da3d6f8d865?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   display: flex;
   align-items: center;
   justify-content: center;
